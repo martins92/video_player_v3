@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="video__wrapper">
+        <video class="video__element" preload="auto">
+          <source src="video/video.mp4" type="video/mp4">
+          <source src="video/video.ogg" type="video/ogg">
+          <!-- <track label="English" kind="subtitles" srclang="en" src="bridge-captions.vtt" default> -->
+          Your browser doesn't support the video tag.
+        </video>
+        <svg class="play__button--main" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+          <defs><style>.cls-1{fill:#1FCCE8;}</style></defs><title>play button</title><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M41.89,23.09,7.15,3a1,1,0,0,0-1.57.91V44.06A1,1,0,0,0,7.15,45L41.89,24.91A1,1,0,0,0,41.89,23.09Z"/></g>
+        </svg>
+        <div class="video__controls">
+          <div class="progress__bar--controls">
+							<progress class="progress" min="0" max="100" value="0">
+							  <span class="progress__bar"></span>
+							</progress>
+					</div>
+          <button class="play__pause btn" type="button" name="play_pause"></button>
+          <button class="replay btn" type="button" name="replay"></button>
+          <button class="volume__mute volume btn" type="button" name="volume"></button>
+          <div class="volume__slider--wrapper">
+            <input type="range" name="volume" class="volume__slider" min="0" max="1" step="0.05" value="1">
+          </div>
+          <button class="full__screen btn" type="button" name="full_screen"></button>
+        </div>
+      </div>
+      <div class="text__wrapper">
+        <p><span class="transcript" data-start="0.240">Now that we've looked at the architecture of the internet, let's see how you might</span>
+			<span class="transcript" data-start="4.13">connect your personal devices to the internet inside your house. </span></p>
+			<p><span class="transcript" data-start="7.535">Well, there are many ways to connect to the internet, and </span>
+			<span class="transcript" data-start="11.27">most often people connect wirelessly. </span>
+			<span class="transcript" data-start="13.96">Let's look at an example of how you can connect to the internet. </span></p>
+			<p><span class="transcript" data-start="17.94">If you live in a city or a town, you probably have a coaxial cable for </span>
+			<span class="transcript" data-start="22.37">cable Internet, or a phone line if you have DSL, running to the outside of </span>
+			<span class="transcript" data-start="26.88">your house, that connects you to the Internet Service Provider, or ISP. </span></p>
+			<p><span class="transcript" data-start="32.1">If you live far out in the country, you'll more likely have </span>
+			<span class="transcript" data-start="34.73">a dish outside your house, connecting you wirelessly to your closest ISP, or </span>
+			<span class="transcript" data-start="39.43">you might also use the telephone system. </span></p>
+			<p><span class="transcript" data-start="42.35">Whether a wire comes straight from the ISP hookup outside your house, or </span>
+			<span class="transcript" data-start="46.3">it travels over radio waves from your roof, </span>
+			<span class="transcript" data-start="49.27">the first stop a wire will make once inside your house, is at your modem. </span></p>
+			<p><span class="transcript" data-start="53.76">A modem is what connects the internet to your network at home. </span>
+			<span class="transcript" data-start="57.78">A few common residential modems are DSL or...</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

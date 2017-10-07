@@ -16,6 +16,7 @@ connect to the internet, and
 4
 00:00:11,270 --> 00:00:13,960
 most often people connect wirelessly.
+———
 
 5
 00:00:13,960 --> 00:00:17,940
@@ -50,6 +51,7 @@ you wirelessly to your closest ISP, or
 11
 00:00:39,430 --> 00:00:41,190
 you might also use the telephone system.
+——
 
 12
 00:00:42,350 --> 00:00:46,300
